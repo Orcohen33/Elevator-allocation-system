@@ -1,6 +1,10 @@
 # Ex1
 
-Literature review:
+
+
+
+
+## Literature review:
 The first thing we've learned from it this video that shows us the elevator problem and what algorithm we should use to cover all the cases up . this video has nice animation and very helpful to watch :
 The Science Behind Elevators - YouTube:
 https://www.youtube.com/watch?v=xOayymoIl8U
