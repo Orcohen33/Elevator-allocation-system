@@ -1,8 +1,8 @@
 # Ex1
 
-
-
-
+## Explanation of the problem space :
+The problem : to move people from source floor to their destanation with the minimum time is possible in consideration for all the calls ,
+in this project we gave our best solution to this problem and tried to minimized the average waiting time and to take calls as much as possible in the giving time.
 
 ## Literature review:
 The first thing we've learned from it this video that shows us the elevator problem and what algorithm we should use to cover all the cases up . this video has nice animation and very helpful to watch :
@@ -18,7 +18,7 @@ The hidden science of elevators by Jesse Dunietz is a useful and full of informa
 The Hidden Science of Elevators (popularmechanics.com):
 https://www.popularmechanics.com/technology/infrastructure/a20986/the-hidden-science-of-elevators/
 
-# Algorithm explanation
+# Algorithm explanation:
 
 
 
