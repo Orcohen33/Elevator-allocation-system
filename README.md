@@ -20,5 +20,15 @@ https://www.popularmechanics.com/technology/infrastructure/a20986/the-hidden-sci
 
 # Algorithm explanation:
 
-
+1.for call in calls_list {
+2.list_of_times <- []
+3.for elev in elevs_list {
+4.elev_time <- 0
+5.elev_time <- check elev ride time to call
+6.elev_time <- check elev ride time to complete the call
+7.append it to list_of_times
+8.} end for
+9.take the index of the minimum time in list_of_times
+10.update the curr floor of this elevator and enter it to the csv out put
+11.} end for
 
