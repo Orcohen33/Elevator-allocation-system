@@ -34,7 +34,7 @@ https://www.popularmechanics.com/technology/infrastructure/a20986/the-hidden-sci
 
 ## Executing the project :
 
-**2 ways to run this program:**
+**Two ways to run this program:**
 
 **_1. First way:_**
   - Open cmd in the project folder
@@ -53,8 +53,27 @@ https://www.popularmechanics.com/technology/infrastructure/a20986/the-hidden-sci
   - Click `Apply` then `Ok`
   - Execute Ex1.py
 
+## Executing the checker:
+
+- Go to the `checker` folder then run the code according to the building files and calls you want. (As I showed above).
+   - Then a file named out.csv will be added. If it already existed, after running the code, the code would overwrite what had been written before.
+
+**_Two ways to run the checker:_**
+
+**_1. First way: _**
+
+- Use terminal on pycharm and write the following template:
+
+ `java -jar Ex1_checker_V1.2_obf.jar 1111,2222,3333 B2.json out.csv out.log`
+ - '1111,2222,3333' -> Write your id
+ - 'B2.json' Is the building and elevators file that you want to run the checker on
+ - 'out.csv' Is the output file that you allocated the elevators to calls
+ - 'out.log' Is a log file showing the allocation of elevators and all other data such as: total operation time, average waiting time per person, uncompleted number of calls
+
+
 ## UML Diagram
 
 ![UML5](https://user-images.githubusercontent.com/92351152/142615279-da823d6b-0ef1-4d50-82f0-971ae7e16017.jpg)
+
 
 
