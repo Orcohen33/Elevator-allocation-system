@@ -32,3 +32,29 @@ https://www.popularmechanics.com/technology/infrastructure/a20986/the-hidden-sci
 10. update the curr floor of this elevator and enter it to the csv out put  
 11. } end for  
 
+## Executing the project :
+
+**2 ways to run this program:**
+
+**_1. First way:_**
+  - Open cmd in the project folder
+    - Use the following code template to run Ex1: 
+      ` py Ex1.py <Building json> <Calls csv> <output name>`
+    - Running the algorithm example :
+      `py Ex1.py B3.json Calls_b.csv out.csv`
+  The output file is the result of executing the program.
+  
+ **_2. Second way:_**
+  - Open pycharm
+  - Right click on Ex1.py
+  - Click on `Modifiy Run Configuration...`
+    - Write in `Parameters:`  -> `<Building json> <Calls csv> <output name>`
+    - Writing `Parameters :` for example : `B3.json Calls_b.csv out.csv`
+  - Click `Apply` then `Ok`
+  - Execute Ex1.py
+
+## UML Diagram
+
+![UML5](https://user-images.githubusercontent.com/92351152/142615279-da823d6b-0ef1-4d50-82f0-971ae7e16017.jpg)
+
+
