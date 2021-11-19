@@ -18,7 +18,7 @@ The hidden science of elevators by Jesse Dunietz is a useful and full of informa
 The Hidden Science of Elevators (popularmechanics.com):  
 https://www.popularmechanics.com/technology/infrastructure/a20986/the-hidden-science-of-elevators/  
 
-# Algorithm explanation:
+## Algorithm explanation:
 
 1. for call in calls_list {  
 2. list_of_times <- []  
@@ -37,7 +37,7 @@ https://www.popularmechanics.com/technology/infrastructure/a20986/the-hidden-sci
 **Two ways to run this program:**
 
 **_1. First way:_**
-  - Open cmd in the project folder
+  - Open cmd in project folder
     - Use the following code template to run Ex1: 
       ` py Ex1.py <Building json> <Calls csv> <output name>`
     - Running the algorithm example :
@@ -60,15 +60,45 @@ https://www.popularmechanics.com/technology/infrastructure/a20986/the-hidden-sci
 
 **_Two ways to run the checker:_**
 
-**_1. First way: _**
+**_1. First way:_**
 
 - Use terminal on pycharm and write the following template:
+<details><summary>CLICK ME</summary>
+<p>   
+  
+      java -jar Ex1_checker_V1.2_obf.jar 1111,2222,3333 B2.json out.csv out.log 
+  
+</p>
+</details>
 
- `java -jar Ex1_checker_V1.2_obf.jar 1111,2222,3333 B2.json out.csv out.log`
- - '1111,2222,3333' -> Write your id
- - 'B2.json' Is the building and elevators file that you want to run the checker on
- - 'out.csv' Is the output file that you allocated the elevators to calls
- - 'out.log' Is a log file showing the allocation of elevators and all other data such as: total operation time, average waiting time per person, uncompleted number of calls
+
+ 
+
+**_2. Second way:_**
+
+- Open cmd in project folder
+- Write the following template:
+<details><summary>CLICK ME</summary>
+<p>   
+  
+      java -jar Ex1_checker_V1.2_obf.jar 1111,2222,3333 B2.json out.csv out.log 
+  
+</p>
+</details>
+ 
+- '1111,2222,3333' -> Write your id
+ - 'B2.json' Is the building and elevators file that you want to run the checker on -> Write building file
+ - 'out.csv' Is the output file that you allocated the elevators to calls -> Write down the CSV file you want to check
+ - 'out.log' Is a log file showing the allocation of elevators and all other data such as: total operation time, average waiting time per person, uncompleted number of calls -> Enter the name of the log file you want to save for the checker
+
+
+
+
+
+
+
+
+
 
 
 ## UML Diagram
