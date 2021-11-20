@@ -1,7 +1,7 @@
 # Ex1
 
 ## Explanation of the problem space :  
-The problem : to move people from source floor to their destenation within minimum time is possible in consideration for all the calls ,  
+The problem : to move people from source floor to their destination within minimum time is possible in consideration for all the calls ,  
 in this project we gave our best solution to this problem and tried to minimized the average waiting time and to take calls as much as     possible in the giving time.  
 
 ## Literature review:  
